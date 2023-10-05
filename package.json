@@ -10,6 +10,7 @@
     "electron",
     "typescript"
   ],
+  "files": ["dist/electron.d.ts"],
   "author": "Electron Community",
   "license": "MIT",
   "repository": "https://github.com/ophidian-lib/electron-types.git",
