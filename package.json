@@ -1,5 +1,5 @@
 {
-  "name": "@ophidian/electron-types",
+  "name": "@types/ophidian__electron-types",
   "version": "24.3.1",
   "description": "Electron type definitions, without the implementation",
   "types": "dist/electron.d.ts",
