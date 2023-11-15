@@ -6,14 +6,10 @@ This is just what it says on the tin: the `electron.d.ts` from Electron's main d
 
 Currently, the Electron version provided is 24.3.1, corresponding to the version used by the Obsidian 1.3.5 runtime, the previous major release of Obsidian.
 
-Note: if you want VSCode to pick up these typings without an explicit `import "@ophidian/electron-types";` somwehere in your project, you'll need to rename it in your package.json, like so:
+Note: if you want VSCode to pick up these typings without an explicit `import "@ophidian/electron-types";`, install the package using alias under `@types` scope:
 
-```json
-{
-  "devDependencies": {
-    "@types/electron": "npm:@ophidian/electron-types@24.3.1",
-  }
-}
+```
+npm install @types/electron@npm:@ophidian/electron-types --save-dev
 ```
 
 This should then be picked up by TypeScript without needing an explicit import.
